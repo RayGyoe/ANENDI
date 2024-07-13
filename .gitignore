@@ -1,0 +1,9 @@
+.DS_Store
+temp
+.db
+native/ANENDI/Release
+native/ANENDI/x64
+*.txt
+.docx
+apm
+native/ANENDI/.vs

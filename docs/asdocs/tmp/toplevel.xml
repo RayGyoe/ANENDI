@@ -1,0 +1,97 @@
+<asdoc>
+
+<classRec name='NDIlib' fullname='com.vsdevelop.air.extension.ndi:NDIlib' sourcefile='E:\Works\eDoctor\ANENDI\swc\src\com\vsdevelop\air\extension\ndi\NDIlib.as' namespace='com.vsdevelop.air.extension.ndi' access='public' baseclass='Object' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+
+	 ...
+
+	 ]]></description>
+<author><![CDATA[Ray.lei
+
+	 ]]></author>
+</classRec>
+<method name='NDIlib' fullname='com.vsdevelop.air.extension.ndi:NDIlib/NDIlib' isStatic='false' isFinal='false' isOverride='false'  param_names='_extCtx;_intptr;_name;_groups;_is_video;_is_audio' param_types='flash.external:ExtensionContext;Number;String;String;Boolean;Boolean' param_defaults='undefined;undefined;undefined;undefined;undefined;undefined' result_type='*'>
+</method>
+<method name='destroy' fullname='com.vsdevelop.air.extension.ndi:NDIlib/destroy' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='sendByteArray' fullname='com.vsdevelop.air.extension.ndi:NDIlib/sendByteArray' isStatic='false' isFinal='false' isOverride='false'  param_names='byteArray;width;height' param_types='flash.utils:ByteArray;int;int' param_defaults='undefined;undefined;undefined' result_type='Boolean'>
+</method>
+<method name='groups' fullname='com.vsdevelop.air.extension.ndi:NDIlib/groups/get' isStatic='false' isFinal='false' isOverride='false'  result_type='String'>
+</method>
+<method name='intptr' fullname='com.vsdevelop.air.extension.ndi:NDIlib/intptr/get' isStatic='false' isFinal='false' isOverride='false'  result_type='Number'>
+</method>
+<method name='is_audio' fullname='com.vsdevelop.air.extension.ndi:NDIlib/is_audio/get' isStatic='false' isFinal='false' isOverride='false'  result_type='Boolean'>
+</method>
+<method name='is_video' fullname='com.vsdevelop.air.extension.ndi:NDIlib/is_video/get' isStatic='false' isFinal='false' isOverride='false'  result_type='Boolean'>
+</method>
+<method name='name' fullname='com.vsdevelop.air.extension.ndi:NDIlib/name/get' isStatic='false' isFinal='false' isOverride='false'  result_type='String'>
+</method>
+<field name='_extCtx' fullname='com.vsdevelop.air.extension.ndi:NDIlib/private:_extCtx' type='flash.external:ExtensionContext' isStatic='false' isConst='false' >
+</field>
+<field name='_groups' fullname='com.vsdevelop.air.extension.ndi:NDIlib/private:_groups' type='String' isStatic='false' isConst='false' >
+</field>
+<field name='_intptr' fullname='com.vsdevelop.air.extension.ndi:NDIlib/private:_intptr' type='Number' isStatic='false' isConst='false' >
+</field>
+<field name='_is_audio' fullname='com.vsdevelop.air.extension.ndi:NDIlib/private:_is_audio' type='Boolean' isStatic='false' isConst='false' >
+</field>
+<field name='_is_video' fullname='com.vsdevelop.air.extension.ndi:NDIlib/private:_is_video' type='Boolean' isStatic='false' isConst='false' >
+</field>
+<field name='_name' fullname='com.vsdevelop.air.extension.ndi:NDIlib/private:_name' type='String' isStatic='false' isConst='false' >
+</field>
+<classRec name='ANENDI' fullname='com.vsdevelop.air.extension.ndi:ANENDI' sourcefile='E:\Works\eDoctor\ANENDI\swc\src\com\vsdevelop\air\extension\ndi\ANENDI.as' namespace='com.vsdevelop.air.extension.ndi' access='public' baseclass='flash.events:EventDispatcher' isFinal='false' isDynamic='false' >
+</classRec>
+<method name='ANENDI' fullname='com.vsdevelop.air.extension.ndi:ANENDI/ANENDI' isStatic='false' isFinal='false' isOverride='false'  result_type='*'>
+</method>
+<method name='create_NDI' fullname='com.vsdevelop.air.extension.ndi:ANENDI/create_NDI' isStatic='false' isFinal='false' isOverride='false'  param_names='name;groups;is_video;is_audio' param_types='String;String;Boolean;Boolean' param_defaults=';;true;true' result_type='com.vsdevelop.air.extension.ndi:NDIlib'>
+<description><![CDATA[
+
+		 
+
+		 ]]></description>
+<param><![CDATA[name
+
+		 ]]></param>
+<param><![CDATA[groups
+
+		 ]]></param>
+<param><![CDATA[is_video
+
+		 ]]></param>
+<param><![CDATA[is_audio
+
+		 ]]></param>
+<return><![CDATA[NDIlib
+
+		 ]]></return>
+</method>
+<method name='debug' fullname='com.vsdevelop.air.extension.ndi:ANENDI/debug' isStatic='false' isFinal='false' isOverride='false'  param_names='value' param_types='Boolean' param_defaults='false' result_type='void'>
+</method>
+<method name='getInstance' fullname='com.vsdevelop.air.extension.ndi:ANENDI/getInstance' isStatic='true' isFinal='false' isOverride='false'  result_type='com.vsdevelop.air.extension.ndi:ANENDI'>
+</method>
+<method name='onStatus' fullname='com.vsdevelop.air.extension.ndi:ANENDI/protected:onStatus' isStatic='false' isFinal='false' isOverride='false'  param_names='event' param_types='flash.events:StatusEvent' param_defaults='undefined' result_type='void'>
+<description><![CDATA[
+
+		 事件 
+
+		 ]]></description>
+<param><![CDATA[event
+
+		 
+
+		 ]]></param>
+</method>
+<method name='actionScriptData' fullname='com.vsdevelop.air.extension.ndi:ANENDI/actionScriptData/get' isStatic='false' isFinal='false' isOverride='false'  result_type='Object'>
+</method>
+<method name='context' fullname='com.vsdevelop.air.extension.ndi:ANENDI/context/get' isStatic='false' isFinal='false' isOverride='false'  result_type='flash.external:ExtensionContext'>
+</method>
+<method name='isSupported' fullname='com.vsdevelop.air.extension.ndi:ANENDI/isSupported/get' isStatic='false' isFinal='false' isOverride='false'  result_type='Boolean'>
+</method>
+<field name='_actionScriptData' fullname='com.vsdevelop.air.extension.ndi:ANENDI/private:_actionScriptData' type='Object' isStatic='false' isConst='false' defaultValue='unknown' >
+</field>
+<field name='_extCtx' fullname='com.vsdevelop.air.extension.ndi:ANENDI/private:_extCtx' type='flash.external:ExtensionContext' isStatic='false' isConst='false' >
+</field>
+<field name='_instance' fullname='com.vsdevelop.air.extension.ndi:ANENDI/private:_instance' type='com.vsdevelop.air.extension.ndi:ANENDI' isStatic='true' isConst='false' >
+</field>
+<field name='_isSupported' fullname='com.vsdevelop.air.extension.ndi:ANENDI/private:_isSupported' type='Boolean' isStatic='false' isConst='false' >
+</field>
+</asdoc>

@@ -1,6 +1,8 @@
 ## ANENDI
 
-example:
+Let AdobeAIR screen/image pass to OBS via NDI（https://ndi.video/for-developers/ndi-sdk/）
+
+##### example:
 
 ```
 if (ANENDI.getInstance().isSupported)
@@ -31,10 +33,6 @@ else
 {
 	trace("不支持ndi");
 }
-	
-```
-
-```
 
 private function ndiAppendFrame(e:TimerEvent):void
 {
@@ -48,6 +46,12 @@ private function ndiAppendFrame(e:TimerEvent):void
 	
 	byte.clear();
 }
-
 ```
 
+
+
+##### Notice：
+
+**Don't forget to copy "runtime-dll/x86" (according to the architecture) to the application runtime directory**
+
+Debug：Please copy it to the AIRSDK/bin directory when debugging.
